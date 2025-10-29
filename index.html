@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DIGITAL R50 - Thiết bị điều khiển từ xa thông minh, tương thích với Windows, Mac và USB"
+    />
+    <meta
+      name="keywords"
+      content="DIGITAL R50, remote control, điều khiển từ xa, smart home"
+    />
+    <meta name="author" content="Sitename.com" />
+    <meta
+      property="og:title"
+      content="DIGITAL R50 - Thiết bị điều khiển thông minh"
+    />
+    <meta
+      property="og:description"
+      content="Sản phẩm điều khiển từ xa hiện đại với nhiều tính năng"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./css/style_ttt.css" />
+    <title>DIGITAL R50 - Thiết bị điều khiển thông minh</title>
+  </head>
+  <body>
+    <header class="ttt_header">
+      <nav class="ttt_nav">
+        <a href="#home" class="ttt_navLink">Home</a>
+        <a href="#about" class="ttt_navLink">About Us</a>
+        <a href="#projects" class="ttt_navLink">Projects</a>
+        <a href="#services" class="ttt_navLink">Services</a>
+        <a href="#support" class="ttt_navLink">Support</a>
+        <a href="#contact" class="ttt_navLink">Contact Us</a>
+        <a href="#privacy" class="ttt_navLink">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="ttt_main">
+      <section class="ttt_formSection">
+        <div class="ttt_bannerWrapper">
+          <img
+            src="images/mainbanner.jpg"
+            alt="Living Room"
+            class="ttt_roomImage"
+          />
+          <div class="ttt_bannerOverlay">
+            <h1 class="ttt_overlayTitle">DIGITAL R50</h1>
+
+            <div class="ttt_overlayItem">
+              <div class="ttt_overlayItemTitle">How it work?</div>
+              <div class="ttt_overlayItemDesc">
+                Lorem ipsum dolor sit amet, adipiscing elit.
+              </div>
+            </div>
+
+            <div class="ttt_overlayItem">
+              <div class="ttt_overlayItemTitle">Features and Benefits</div>
+              <div class="ttt_overlayItemDesc">
+                Nunc consectetuer diam ac odio.
+              </div>
+            </div>
+
+            <div class="ttt_overlayItem">
+              <div class="ttt_overlayItemTitle">Specifications</div>
+              <div class="ttt_overlayItemDesc">
+                Vivamus eleifend sollicitudin velit
+              </div>
+            </div>
+
+            <a href="#readmore" class="ttt_overlayLink">ReadMore</a>
+          </div>
+        </div>
+
+        <div class="ttt_compatibility">
+          <span class="ttt_compatTitle">Compatibility :</span>
+          <img src="images/window.jpg" alt="Windows" class="ttt_compatIcon" />
+          <img src="images/mac.jpg" alt="Mac" class="ttt_compatIcon" />
+          <img
+            src="images/3.jpg"
+            alt="USB"
+            class="ttt_compatIcon"
+            style="width: 30px"
+          />
+        </div>
+
+        <form class="ttt_form" id="ttt_registrationForm" novalidate>
+          <div class="ttt_formRow">
+            <div class="ttt_formGroup ttt_formCol">
+              <label for="ttt_email" class="ttt_formLabel">Email</label>
+              <input
+                type="email"
+                id="ttt_email"
+                name="ttt_email"
+                class="ttt_formInput"
+                required
+              />
+              <span class="ttt_errorMsg" id="ttt_emailError"
+                >Vui lòng nhập email hợp lệ</span
+              >
+            </div>
+
+            <div class="ttt_formGroup ttt_formCol">
+              <label for="ttt_password" class="ttt_formLabel">Password</label>
+              <input
+                type="password"
+                id="ttt_password"
+                name="ttt_password"
+                class="ttt_formInput"
+                required
+              />
+              <span class="ttt_errorMsg" id="ttt_passwordError"
+                >Mật khẩu phải có ít nhất 6 ký tự</span
+              >
+            </div>
+          </div>
+
+          <div class="ttt_formGroup">
+            <label for="ttt_address" class="ttt_formLabel">Address</label>
+            <input
+              type="text"
+              id="ttt_address"
+              name="ttt_address"
+              class="ttt_formInput"
+              placeholder="1234 Main St"
+              required
+            />
+            <span class="ttt_errorMsg" id="ttt_addressError"
+              >Vui lòng nhập địa chỉ</span
+            >
+          </div>
+
+          <div class="ttt_formGroup">
+            <label for="ttt_address2" class="ttt_formLabel">Address 2</label>
+            <input
+              type="text"
+              id="ttt_address2"
+              name="ttt_address2"
+              class="ttt_formInput"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+
+          <div class="ttt_formRow">
+            <div class="ttt_formGroup ttt_formCol">
+              <label for="ttt_city" class="ttt_formLabel">City</label>
+              <input
+                type="text"
+                id="ttt_city"
+                name="ttt_city"
+                class="ttt_formInput"
+                required
+              />
+              <span class="ttt_errorMsg" id="ttt_cityError"
+                >Vui lòng nhập thành phố</span
+              >
+            </div>
+
+            <div class="ttt_formGroup ttt_formCol">
+              <label for="ttt_state" class="ttt_formLabel">State</label>
+              <select
+                id="ttt_state"
+                name="ttt_state"
+                class="ttt_formSelect"
+                required
+              >
+                <option value="">Choose...</option>
+                <option value="hanoi">Hà Nội</option>
+                <option value="hcm">TP. Hồ Chí Minh</option>
+                <option value="danang">Đà Nẵng</option>
+                <option value="haiphong">Hải Phòng</option>
+                <option value="cantho">Cần Thơ</option>
+              </select>
+              <span class="ttt_errorMsg" id="ttt_stateError"
+                >Vui lòng chọn tỉnh/thành</span
+              >
+            </div>
+
+            <div class="ttt_formGroup ttt_formCol">
+              <label for="ttt_zip" class="ttt_formLabel">Zip</label>
+              <input
+                type="text"
+                id="ttt_zip"
+                name="ttt_zip"
+                class="ttt_formInput"
+                required
+              />
+              <span class="ttt_errorMsg" id="ttt_zipError"
+                >Vui lòng nhập mã zip</span
+              >
+            </div>
+          </div>
+
+          <div class="ttt_checkbox">
+            <input
+              type="checkbox"
+              id="ttt_checkmeout"
+              name="ttt_checkmeout"
+              class="ttt_checkboxInput"
+            />
+            <label for="ttt_checkmeout" class="ttt_checkboxLabel"
+              >Check me out</label
+            >
+          </div>
+
+          <button type="submit" class="ttt_submitBtn">Sign in</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="ttt_footer">
+      <p class="ttt_footerText">
+        Copyright (c) Sitename.com. All rights reserved. Design by Stylish
+        <a href="#" class="ttt_footerLink">Website Templates</a>
+      </p>
+    </footer>
+    <script src="./js/script_ttt.js"></script>
+  </body>
+</html>
